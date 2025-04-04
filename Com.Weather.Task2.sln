@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Weather.Task2.Api", "sr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "migrations", "migrations", "{86535F16-5478-441F-AEE2-7521590EFABE}"
 	ProjectSection(SolutionItems) = preProject
-		create_weather_table.sql = create_weather_table.sql
+		database\migrations\create_weather_table.sql = database\migrations\create_weather_table.sql
 	EndProjectSection
 EndProject
 Global
