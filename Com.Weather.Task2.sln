@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2208042B-BEA9-4C1F-B25A-B0F572DDBF98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{61B3283C-EFE8-4CB0-9E4E-79F22BC0DA92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Weather.Task2.Domain", "src\Com.Weather.Task2.Domain\Com.Weather.Task2.Domain.csproj", "{816E2C0A-2B94-439E-AF2F-BB7006C32354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Weather.Task2.Api", "src\Com.Weather.Task2.Api\Com.Weather.Task2.Api.csproj", "{5F6EF932-F84B-498D-B90C-2DB937337FDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "migrations", "migrations", "{86535F16-5478-441F-AEE2-7521590EFABE}"
+	ProjectSection(SolutionItems) = preProject
+		create_weather_table.sql = create_weather_table.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{816E2C0A-2B94-439E-AF2F-BB7006C32354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816E2C0A-2B94-439E-AF2F-BB7006C32354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816E2C0A-2B94-439E-AF2F-BB7006C32354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816E2C0A-2B94-439E-AF2F-BB7006C32354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6EF932-F84B-498D-B90C-2DB937337FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6EF932-F84B-498D-B90C-2DB937337FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6EF932-F84B-498D-B90C-2DB937337FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6EF932-F84B-498D-B90C-2DB937337FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{816E2C0A-2B94-439E-AF2F-BB7006C32354} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5F6EF932-F84B-498D-B90C-2DB937337FDB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{86535F16-5478-441F-AEE2-7521590EFABE} = {61B3283C-EFE8-4CB0-9E4E-79F22BC0DA92}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C4E5BD4-ADA7-4C1C-AD56-F31B75222C8B}
+	EndGlobalSection
+EndGlobal
