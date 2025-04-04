@@ -1,0 +1,54 @@
+.city-card {
+    border: 2px solid #000;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.city-card-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.city-card-name {
+    text-decoration: underline;
+    text-align: left;
+}
+
+.city-card-timestamp {
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+}
+
+.city-card-temperature {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    border-left: 1px solid #000;
+    padding-left: 8px;
+}
+
+.city-card-temperature span {
+    display: block;
+    border: #000;
+}
+
+.city-card-temperature span:first-child {
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+.city-card-temperature-min {
+    color: blue;
+    text-align: right;
+}
+
+.city-card-temperature-max {
+    color: red;
+    text-align: right;
+}

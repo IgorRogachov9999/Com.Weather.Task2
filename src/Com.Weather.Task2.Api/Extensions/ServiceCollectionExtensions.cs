@@ -12,6 +12,20 @@ namespace Com.Weather.Task2.Api.Extensions
             services.AddDataLayer(configuration);
             services.AddServicesLayer(configuration);
             services.AddBackgroundJobs(configuration);
+            services.AddCors();
+
+            return services;
+        }
+
+        private static IServiceCollection AddCors(this IServiceCollection services)
+        {
+            services.AddCors(options => {
+                options.AddPolicy("AllowFrontend", builder => {
+                    builder.WithOrigins("*")
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
+            });
 
             return services;
         }

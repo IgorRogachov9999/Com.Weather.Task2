@@ -1,0 +1,8 @@
+.weather-list-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

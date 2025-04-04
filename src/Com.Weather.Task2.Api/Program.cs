@@ -21,6 +21,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
+app.UseCors("AllowFrontend");
 app.UseMiddleware<ErrorHandlingMiddleware>();
 app.MapControllers();
 
